@@ -24,6 +24,5 @@ With Python 3.11+ installed, double-click `run.bat`. On the first launch it inst
 Verify the published source archive before running it:
 
 - SHA-256: `7DF6008FD3AACDDC84B615886A0695D14F7B6BB5E901930F3329B990CCCD9FD0`
-- [Search this exact hash on VirusTotal](https://www.virustotal.com/gui/file/7df6008fd3aacddc84b615886a0695d14f7b6bb5e901930f3329b990cccd9fd0)
 
-The link is a hash lookup, not a claim that a VirusTotal analysis has completed. Always inspect the report before trusting a downloaded archive.
+This hash lets you independently verify that an archive matches the published source. A VirusTotal report link will be added only after a completed scan is available.
