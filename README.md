@@ -18,3 +18,12 @@ With Python 3.11+ installed, double-click `run.bat`. On the first launch it inst
 - Tags, search, favorites, and copy-to-clipboard
 - Download a local JSON backup
 - No account, API key, or cloud database required
+
+## Archive verification
+
+Verify the published source archive before running it:
+
+- SHA-256: `7DF6008FD3AACDDC84B615886A0695D14F7B6BB5E901930F3329B990CCCD9FD0`
+- [Search this exact hash on VirusTotal](https://www.virustotal.com/gui/file/7df6008fd3aacddc84b615886a0695d14f7b6bb5e901930f3329b990cccd9fd0)
+
+The link is a hash lookup, not a claim that a VirusTotal analysis has completed. Always inspect the report before trusting a downloaded archive.
