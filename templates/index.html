@@ -1,0 +1,1 @@
+{% extends "base.html" %}{% block content %}<h1>Daha iyi promptlar, tek yerde.</h1><p>Yerelde çalışan prompt kitaplığın. {{ count }} kayıt var.</p><a class="button" href="/generator">Yeni prompt oluştur</a>{% for p in recent %}<article><h3>{{ p.title }}</h3><p>{{ p.body[:180] }}…</p></article>{% endfor %}{% endblock %}
