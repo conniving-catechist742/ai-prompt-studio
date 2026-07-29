@@ -1,13 +1,13 @@
 # PromptForge
 
-Yerelde çalışan, prompt oluşturma ve düzenleme uygulaması.
+A local-first prompt creation and organization app.
 
-## Windows
+## Run on Windows
 
-Python 3.11+ kuruluysa `run.bat` dosyasına çift tıkla. İlk açılışta paketler kurulur ve uygulama tarayıcıda açılır.
+With Python 3.11+ installed, double-click `run.bat`. On the first launch it installs the required package and opens PromptForge in your browser.
 
-## Özellikler
+## Features
 
-- Prompt üretme ve kaydetme
-- Etiket, arama, favori, kopyalama
-- Yerel JSON yedeği indirme
+- Generate and save prompts
+- Tags, search, favorites, and copy-to-clipboard
+- Download a local JSON backup

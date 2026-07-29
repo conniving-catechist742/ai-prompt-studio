@@ -39,10 +39,10 @@ def generator():
     result = ""
     if request.method == "POST":
         topic = request.form.get("topic", "").strip()[:180]
-        audience = request.form.get("audience", "genel kullanıcı").strip()[:100]
-        tone = request.form.get("tone", "net ve faydalı").strip()[:100]
+        audience = request.form.get("audience", "a general audience").strip()[:100]
+        tone = request.form.get("tone", "clear and helpful").strip()[:100]
         if topic:
-            result = f"{topic} konusunda {audience} için {tone} tonda yardımcı ol. Önce hedefi ve varsayımları kısa doğrula. Ardından uygulanabilir, adım adım yanıt ver. Eksik bilgi varsa en fazla 3 net soru sor; bilmediğin bilgiyi uydurma."
+            result = f"Help {audience} with {topic} in a {tone} tone. First, briefly confirm the goal and assumptions. Then provide an actionable, step-by-step answer. If information is missing, ask no more than three clear questions. Never invent facts."
     return render_template("generator.html", result=result)
 
 
