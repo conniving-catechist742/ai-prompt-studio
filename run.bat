@@ -8,7 +8,13 @@ if not exist ".venv\Scripts\python.exe" (
 ".venv\Scripts\python.exe" -m pip install --disable-pip-version-check -r requirements.txt
 if errorlevel 1 goto :error
 start "" ".venv\Scripts\pythonw.exe" app.py
-timeout /t 2 /nobreak >nul
+powershell -NoProfile -Command "$ready=$false; for($i=0;$i -lt 20;$i++){try{if((Invoke-WebRequest -UseBasicParsing 'http://127.0.0.1:5000/health' -TimeoutSec 1).StatusCode -eq 200){$ready=$true; break}}catch{}; Start-Sleep -Milliseconds 500}; if(-not $ready){exit 1}"
+if errorlevel 1 (
+  echo PromptForge did not become ready at http://127.0.0.1:5000.
+  echo Close any other app using port 5000, then try again.
+  pause
+  exit /b 1
+)
 start "" http://127.0.0.1:5000
 exit /b 0
 
