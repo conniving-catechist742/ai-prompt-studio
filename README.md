@@ -10,7 +10,7 @@ Create reusable prompts, organize them with tags, quickly find what you need, an
 
 ## Run on Windows
 
-With Python 3.11+ installed, double-click `run.bat`. On the first launch it installs the required package and opens PromptForge in your browser.
+With Python 3.11+ installed, double-click `run.bat`. On the first launch it installs the required package, starts PromptForge in the background, and opens it in your browser after it is ready.
 
 ## Features
 
